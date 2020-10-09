@@ -1,0 +1,56 @@
+.navbar
+	{	background-color:#343440;
+	}
+
+#main
+	{	margin-left:2.5%;
+	}
+
+.carousel
+	{	margin:5% 5%;
+	}
+
+.card
+	{	margin:2% auto;
+	}
+
+.hero-image
+	{
+		background-image: url("images/bc.jpg");
+		height: auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		opacity:0.8;
+	}
+
+.card1
+	{
+		opacity: 1.0;
+	}
+
+.card1:hover
+	{
+		opacity: 0.8;
+	}
+
+.text1
+	{
+		background-color:#ffff66;
+		opacity:0.8;
+	}
+
+.nav-item:hover
+	{	color:yellow;
+	}
+
+li:hover
+	{	background-color:#206020;
+	}
+
+
+	@media only screen and (min-width: 600px) {
+	  body {
+	    background-image: url('1.jpg');
+	  }
