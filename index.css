@@ -1,0 +1,47 @@
+@media only screen and (min-width: 600px) {
+  #carouselExampleIndicators{
+    margin: 5%;
+  }
+  .cimg{
+    height: 400px;
+    width: 475px;
+  }
+  .jtext1 {
+    font-size: 30px;
+  }
+  .jtext2{
+    font-size: 25px;
+  }
+  .card{
+    	margin:2% auto;
+  }
+}
+
+
+body{
+  background-image: url('images/bc.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:auto;
+  position: relative;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.card
+	{	margin:auto;
+    margin-bottom:2.5%;
+	}
+.card-img-top
+  	{
+  		opacity: 1.0;
+  	}
+
+.card-img-top:hover
+  	{
+  		opacity: 0.8;
+  	}
+.jumbotron{
+  text-align: justify;
+}
