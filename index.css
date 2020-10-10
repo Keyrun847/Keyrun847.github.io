@@ -31,7 +31,8 @@ body{
 }
 .card
 	{	margin:auto;
-    margin-bottom:2.5%;
+        margin-bottom:2.5%;
+        background-color: rgba(0, 0, 0, 0.7);
 	}
 .card-img-top
   	{
@@ -44,4 +45,10 @@ body{
   	}
 .jumbotron{
   text-align: justify;
+}
+.navbar{
+    background-color: black;
+}
+.card-title{
+    color: yellow;
 }
