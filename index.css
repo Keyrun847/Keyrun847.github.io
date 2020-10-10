@@ -29,10 +29,13 @@ body{
 .navbar-nav{
   margin-left: auto;
 }
+.navbar{
+    background-color: black;
+}
 .card
 	{	margin:auto;
         margin-bottom:2.5%;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.5);
 	}
 .card-img-top
   	{
@@ -50,5 +53,11 @@ body{
     background-color: black;
 }
 .card-title{
+    color: yellow;
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
     color: yellow;
 }
