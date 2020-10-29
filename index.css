@@ -1,25 +1,5 @@
-@media only screen and (min-width: 600px) {
-  #carouselExampleIndicators{
-    margin: 5%;
-  }
-  .cimg{
-    height: 410px;
-    width: 475px;
-  }
-  .jtext1 {
-    font-size: 30px;
-  }
-  .jtext2{
-    font-size: 25px;
-  }
-  .card{
-    	margin:2% auto;
-  }
-}
-
-
 body{
-  background-image: url('images/bc.jpg');
+  background-image: url('images/bc.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,9 +14,10 @@ body{
 }
 .card
 	{	margin:auto;
-        margin-bottom:2.5%;
-        background-color: rgba(0, 0, 0, 0.5);
-	}
+        margin-bottom:5%;
+        background-color:rgba(0, 0, 0, 0.5);
+        width: 18rem;
+}
 .card-img-top
   	{
   		opacity: 1.0;
@@ -44,20 +25,62 @@ body{
 
 .card-img-top:hover
   	{
-  		opacity: 0.8;
+  		opacity: 0.7;
   	}
 .jumbotron{
-  text-align: justify;
-}
-.navbar{
-    background-color: black;
+    text-align: justify;
 }
 .card-title{
     color: yellow;
+}
+.card-body{
+    background-color: black;
 }
 .dropdown-menu{
     background-color: black;
 }
 .dropdown-item{
     color: yellow;
+}
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #F6F6F6;
+    color: black;
+}
+.footer{
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+}
+a {
+    color: inherit;
+} 
+@media only screen and (min-width: 600px) {
+  #carouselExampleIndicators{
+    margin: 10% 10% 5% 10%;
+  }
+  .cimg{
+    height: 410px;
+    }
+  .jtext1 {
+    font-size: 30px;
+  }
+  .jtext2{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+    #carouselExampleIndicators{
+        margin-top: 55px;
+    }
+    
+}
+
+@media only screen and (min-width: 800px){
+    .card{
+        width: 25rem;
+    }
 }
