@@ -28,7 +28,7 @@ body{
   		opacity: 0.7;
   	}
 .jumbotron{
-    text-align: justify;
+    text-align:justify;
 }
 .card-title{
     color: yellow;
@@ -59,7 +59,7 @@ a {
 } 
 @media only screen and (min-width: 600px) {
   #carouselExampleIndicators{
-    margin: 10% 10% 5% 10%;
+    margin: 5% 10% 5% 10%;
   }
   .cimg{
     height: 410px;
@@ -70,17 +70,22 @@ a {
   .jtext2{
     font-size: 25px;
   }
+   
 }
-
-@media only screen and (max-width: 600px){
-    #carouselExampleIndicators{
-        margin-top: 55px;
-    }
-    
-}
-
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1000px){
     .card{
         width: 25rem;
+
+}
+@media only screen and (min-width: 800px){
+    }
+     .contact{
+        display: inline-block;
+    }
+    .address{
+       margin: 0px 200px 0px 200px;
+    }
+    .whatsapp{
+        
     }
 }
