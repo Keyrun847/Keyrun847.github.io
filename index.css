@@ -29,6 +29,8 @@ body{
   	}
 .jumbotron{
     text-align:justify;
+    opacity:0.8;
+    background-color:rgba(179, 255,179,0.8);
 }
 .card-title{
     color: yellow;
