@@ -48,11 +48,14 @@ body{
     background-color: #F6F6F6;
     color: black;
 }
-.footer{
-    padding: 50px;
+.contactus{
+    padding:50px 50px 20px 50px;
     text-align: center;
     background-color: black;
     color: yellow;
+}
+.contact{
+    padding: 10px;
 }
 a {
     color: inherit;
@@ -75,17 +78,26 @@ a {
 @media only screen and (min-width: 1000px){
     .card{
         width: 25rem;
-
-}
-@media only screen and (min-width: 800px){
     }
+}
+@media only screen and (min-width: 1025px){
      .contact{
-        display: inline-block;
+         padding:0% 10%;
+    }
+    .contactus{
+    padding:4% 10% 15% 10%;
+    text-align:center;
+    background-color: black;
+    color: yellow;
+}
+    .contactnum{
+        float: left;
     }
     .address{
-       margin: 0px 200px 0px 200px;
+        float: left;
     }
     .whatsapp{
-        
+        float: left;
     }
+    
 }
