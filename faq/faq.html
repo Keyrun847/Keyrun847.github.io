@@ -7,9 +7,8 @@
 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
-
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="faq.css">
 
   </head>
   <body style="background-image: url('FAQ.jpg'); background-repeat: no-repeat;
@@ -18,8 +17,8 @@
 
     <div class="container">
 
-      <div class="page-header">
-        <h1 style="color: black; -webkit-text-stroke: 1px white; text-align:center;">
+      <div class="page-header" style="border-bottom-color: yellow;">
+        <h1 style="color: black; -webkit-text-stroke: 1px yellow; text-align:center;">
           <strong>Frequently Asked Questions</strong>
         </h1>
       </div>
@@ -28,10 +27,10 @@
       <div class="container" style="opacity:0.85;">
 
         <div class="panel-group" id="accordion">
-          <div class="faqHeader" style=" border-bottom: 6px solid #0E1E37;
-  background-color: lightgrey; text-align:center;">General Questions</div>
+          <div class="faqHeader" style=" border-bottom: 6px solid yellow;
+  background-color: black;color: yellow; text-align:center;">General Questions</div>
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1) What is VSI & what are the applications / uses of VSI?</a>
               </h4>
@@ -61,7 +60,7 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2) How VSI Crusher Works? (Working Principle)
                 </a>
@@ -79,7 +78,7 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3) What is the raw material required for manufacturing Artificial sand? What is the feed size?
                 </a>
@@ -107,7 +106,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">4) What is the cost of sand making machine?
                 </a>
@@ -129,7 +128,7 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">5) What is Throughput Capacity & Output Capacity?
                 </a>
@@ -144,7 +143,7 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">6) What are the ‘A’ series & ‘B’ series models?
                 </a>
@@ -160,7 +159,7 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">7) How to select model?</a>
               </h4>
@@ -172,7 +171,7 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">8) How much area is required for set up the plant & how to select it?</a>
               </h4>
@@ -191,7 +190,7 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">9) How much Manpower required for the set up?</a>
               </h4>
@@ -204,7 +203,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">10) What are the licenses required?</a>
               </h4>
@@ -223,7 +222,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">11) What is the Profitability Report? Whether this project is profitable?
                 </a>
@@ -232,7 +231,7 @@
             <div id="collapseEleven" class="panel-collapse collapse">
               <div class="panel-body">
                 <strong>Ans.: Profitability of sand making machine (Considering 30 Tons / Hrs. Capacity):</strong><br>
-                <p style="color:red;">NOTE: This is a guideline how to make profitability report. Rates may vary according to location hence, visitor should workout profitability report according to local rates. Calculation you can do by filling the below table online on the same page.
+                <p style="color:white;">NOTE: This is a guideline how to make profitability report. Rates may vary according to location hence, visitor should workout profitability report according to local rates. Calculation you can do by filling the below table online on the same page.
                 </p>
 
                 <br>
@@ -245,7 +244,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">12) What is material flow diagram for ‘A’ series machine & ‘B’ series Machine? What is power requirement for various models along with the list of accessories? How crushed sand is manufactured & what are the equipments required?
                 </a>
@@ -263,7 +262,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen">13) What is VSI with D.F.P. (Dust Free Production) Technology?</a>
               </h4>
@@ -279,7 +278,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen">14) Do Akashganga helps in promotion of products of its customer in local area?
                 </a>
@@ -294,7 +293,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFifteen">15) After Sales Service</a>
               </h4>
@@ -308,7 +307,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen">16) What is Sand?
                 </a>
@@ -327,7 +326,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventeen">17) What is the role of Sand in Concrete?
                 </a>
@@ -344,7 +343,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEighteen">18) What are the benefits of Artificial Sand over Natural Sand?</a>
               </h4>
@@ -359,7 +358,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNinteen">19) Does Artificial Sand need to be washed?
                 </a>
@@ -376,7 +375,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwenty">20) How much is the wastage?
                 </a>
@@ -392,7 +391,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTOne">21) What is difference Between Akashganga’s Crushed Sand & Other manufacturer’s Crushed Sand? Whether this sand replaces river sand? Whether we are getting the same strength, what we are getting with River Sand.? Can we use 100% crushed sand?
                 </a>
@@ -414,7 +413,7 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div id="panel-heading" class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTTwo">22) What are Jamuna Sand, Nirman Sand, Crystal Sand, M Sand, and Robo Sand?</a>
               </h4>
@@ -465,6 +464,12 @@
     <!-- Bootstrap FAQ - END -->
 
   </div>
+    
+    
+    
+    
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>

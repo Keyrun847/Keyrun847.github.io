@@ -1,0 +1,16 @@
+.navbar-nav{
+  margin-left: auto;
+}
+.navbar{
+    background-color: black;
+}
+.panel,.panel-default,panel-body{
+    background-color: black;
+    color: yellow;
+    border-color: yellow;
+}
+#panel-heading{
+    background-color: black;
+    color: yellow;
+    border-bottom-color:yellow;
+}
