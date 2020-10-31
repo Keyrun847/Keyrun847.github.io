@@ -14,7 +14,8 @@ body{
   background-image: url("images/bc.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed
+  background-attachment: fixed;
+  background-size:cover;
 }
 
 .dropdown-menu{
