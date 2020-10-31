@@ -1,22 +1,23 @@
 html{
     scroll-behavior: smooth;
 }
-{
+body{
   background-image: url('images/bc.jpeg');
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
   height:auto;
   position: relative;
   background-attachment: fixed;
 }
-body{ 
+by{ 
   background-image: url("images/bc.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size:cover;
   position: relative;
+  
 }
 
 .dropdown-menu{
