@@ -3,4 +3,15 @@
 }
 .navbar{
     background-color: black;
+    border-bottom: solid 1px;
+    border-bottom-color: yellow;
+}
+  .img{
+      background-size: cover;
+      height:auto;
+      position: relative;
+      background-position: center;
+      background-color: black;
+      color: yellow;
+      padding: 20px;
 }
