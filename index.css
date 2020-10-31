@@ -32,7 +32,7 @@ body{
 .intro{
     text-align:justify;
     background-color: rgba(245, 243, 132,0.9);
-    padding: 10px;
+    padding: 25px;
 }
 
 
@@ -97,9 +97,9 @@ a {
         opacity: 0.5;
     }
     .contactus{
-		text-align:center;
-		background-color: black;
-		color: yellow;
+	text-align:center;
+	background-color: black;
+	color: yellow;
     }
     .contactelements{
         display: flex;
