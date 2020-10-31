@@ -21,7 +21,7 @@ body{
 
 
 .navbar-nav{
-  margin-left: auto;
+    margin-left: auto;
 }
 .navbar{
     background-color: black;
@@ -29,27 +29,30 @@ body{
 }
 
 
-.jumbotron{
+.intro{
     text-align:justify;
+    background-color: rgba(245, 243, 132,0.9);
+    padding: 30px;
 }
 
 
-.card
-	{	margin:auto;
-        margin-bottom: 3%;
-        background-color:rgba(0, 0, 0,1);
-        width: 18rem;
+.card{	
+    margin:auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color:rgba(0, 0, 0,1);
+    width: 18rem;
+    box-shadow: 5px 5px 1px rgba(245, 243, 132,0.5);
 }
-.card-img-top
-  	{
-  		opacity: 1.0;
+.card-img-top{
+    opacity: 1.0;
 }
-.card-img-top:hover
-  	{
-  		opacity: 0.7;
+.card-img-top:hover{
+    opacity: 0.7;
 }
 .card-title{
     color: yellow;
+    text-shadow: 2px 2px 0px green;
 }
 
 
@@ -81,9 +84,6 @@ a {
 
 
 @media only screen and (min-width: 600px) {
-    #carouselExampleIndicators{
-        margin: 5% 10% 5% 10%;
-    }
     .cimg{
         height: 380px;
     }
@@ -116,6 +116,12 @@ a {
     
 }
 
+@media only screen and (min-width: 800px){
+    .cimg{
+        height: 450px;
+    }
+    
+}
     
     
 @media only screen and (min-width: 1020px){
