@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
-boy{
+{
   background-image: url('images/bc.jpeg');
   background-position: right;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@ boy{
 body{ 
   background-image: url("images/bc.jpeg");
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: center;
   background-attachment: fixed
 }
 
