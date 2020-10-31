@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
+boy{
   background-image: url('images/bc.jpeg');
   background-position: right;
   background-repeat: no-repeat;
@@ -10,7 +10,13 @@ body{
   position: relative;
   background-attachment: fixed;
 }
-
+body{ 
+  background-image: url("images/bc.jpeg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed
+}
 
 .dropdown-menu{
     background-color: black;
