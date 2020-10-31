@@ -1,55 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
-  background-image: url('images/bc.jpg');
-  background-position: center;
+  background-image: url('images/bc.jpeg');
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   height:auto;
   position: relative;
 }
-.navbar-nav{
-  margin-left: auto;
-}
-.navbar{
-    background-color: black;
-}
-.card
-	{	margin:auto;
-        margin-bottom: 3%;
-        background-color:rgba(0, 0, 0, 0.5);
-        width: 18rem;
-}
-.card-img-top
-  	{
-  		opacity: 1.0;
-  	}
 
-.card-img-top:hover
-  	{
-  		opacity: 0.7;
-  	}
-.jumbotron{
-    text-align:justify;
-    opacity:0.8;
-    background-color:rgba(179, 255,179,0.8);
-}
-.card-title{
-    color: yellow;
-}
-.card-body{
-    background-color: black;
-}
+
 .dropdown-menu{
     background-color: black;
 }
 .dropdown-item{
     color: yellow;
 }
+
+
+.navbar-nav{
+  margin-left: auto;
+}
+.navbar{
+    background-color: black;
+    border-bottom: solid 1px yellow;
+}
+
+
+.jumbotron{
+    text-align:justify;
+}
+
+
+.card
+	{	margin:auto;
+        margin-bottom: 3%;
+        background-color:rgba(0, 0, 0,1);
+        width: 18rem;
+}
+.card-img-top
+  	{
+  		opacity: 1.0;
+}
+.card-img-top:hover
+  	{
+  		opacity: 0.7;
+}
+.card-title{
+    color: yellow;
+}
+
+
 .about-section {
     padding: 50px;
     text-align: center;
     background-color: #F6F6F6;
     color: black;
 }
+
+
+
 .contactus{
     padding:50px 50px 20px 50px;
     text-align: center;
@@ -59,15 +70,21 @@ body{
 .contact{
     padding: 10px;
 }
+
+
 a {
     color: inherit;
-} 
+}
+
+
+
+
 @media only screen and (min-width: 600px) {
   #carouselExampleIndicators{
     margin: 5% 10% 5% 10%;
   }
   .cimg{
-    height: 410px;
+    height: 380px;
     }
   .jtext1 {
     font-size: 30px;
@@ -75,13 +92,21 @@ a {
   .jtext2{
     font-size: 25px;
   }
-   
-}
-@media only screen and (min-width: 1000px){
-    .card{
-        width: 25rem;
+    .nav-link:hover{
+        opacity: 0.5;
     }
 }
+
+    
+    
+@media only screen and (min-width: 1020px){
+    .card{
+        width: 28rem;
+    }
+}
+    
+    
+    
 @media only screen and (min-width: 1206px){
     .contact{
          padding:0% 10%;
@@ -91,7 +116,7 @@ a {
 		text-align:center;
 		background-color: black;
 		color: yellow;
-}
+    }
     .contactnum{
         float: left;
     }
