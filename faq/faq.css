@@ -6,11 +6,11 @@
 }
 .panel,.panel-default,panel-body{
     background-color: black;
-    color: yellow;
-    border-color: yellow;
+    color: rgba(245, 243, 132,0.8);
+    border-color: rgba(238, 238, 0, 0.8);
 }
 #panel-heading{
     background-color: black;
-    color: yellow;
-    border-bottom-color:yellow;
+    color:rgba(238, 238, 0, 0.8);
+    border-bottom-color:rgba(238, 238, 0, 0.8);
 }
