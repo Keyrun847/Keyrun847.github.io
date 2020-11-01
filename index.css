@@ -186,7 +186,7 @@ body{
 .intro{
     text-align:justify;
     background-color: rgba(245, 243, 132,0.9);
-    padding: 30px;
+    padding: 25px;
 }
 
 #products{
@@ -263,9 +263,9 @@ a {
         opacity: 0.5;
     }
     .contactus{
-		text-align:center;
-		background-color: black;
-		color: yellow;
+	text-align:center;
+	background-color: black;
+	color: yellow;
     }
     .contactelements{
         display: flex;
@@ -303,6 +303,7 @@ a {
         width: 28rem;
     }
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 350px){
     .cards{
@@ -312,3 +313,5 @@ a {
         width:15rem;
     }
 }
+=======
+>>>>>>> 71c53894363a9c2ea2d142b758ec4f9c81b83667
