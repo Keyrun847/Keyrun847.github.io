@@ -169,7 +169,6 @@ a {
 @media only screen and (max-width: 350px){
     .cards{
         padding: 5px;
-        margin-left:20px;
     }
     .card{
         width:15rem;
