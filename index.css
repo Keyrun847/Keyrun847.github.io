@@ -39,8 +39,8 @@ body{
 }
 
 #products{
-    border: inset 15px rgba(0,0,0,0.8);
-border-style:outset;
+    border: solid 15px rgba(0,0,0,0.8);
+border-style:groove;
 }
 
 .products-title{
