@@ -50,7 +50,7 @@ border-style:groove;
     color: white;
     font-size: 2em;
     text-shadow: 2px 2px 5px black;
-    border-bottom:solid 15px rgba(0,0,0,0.8);
+    border-bottom:groove 15px rgba(0,0,0,0.8);
 }
 
 .cards{
