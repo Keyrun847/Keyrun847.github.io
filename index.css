@@ -39,7 +39,7 @@ body{
 }
 
 #products{
-    border: solid 15px rgba(0,0,0,0.8);
+border-width:15px;
 border-style:groove;
 }
 
