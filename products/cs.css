@@ -1,17 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('../images/bc.jpeg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:auto;
+    position: relative;
+    background-attachment: fixed;
+    margin:0 2% 2% 2%;
+    text-align: justify;
+}
 .navbar-nav{
   margin-left: auto;
 }
 .navbar{
     background-color: black;
-    border-bottom: solid 1px;
-    border-bottom-color: yellow;
+    border-bottom: solid 1px rgba(245, 243, 132,0.9);
 }
-  .img{
-      background-size: cover;
-      height:auto;
-      position: relative;
-      background-position: center;
-      background-color: black;
-      color: yellow;
-      padding: 20px;
+.imgbox{
+    margin-top: 2%;
+    color:yellow;
+}
+.imgbox{
+    font-size: 25px;
 }
