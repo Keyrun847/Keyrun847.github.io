@@ -39,7 +39,9 @@ body{
 }
 
 #products{
-    border: solid 15px rgba(0,0,0,0.8);
+    border-width:15px;
+    border-style:groove;
+    border-color:rgba(0,0,0,0.8);
 }
 
 .products-title{
@@ -49,7 +51,9 @@ body{
     color: white;
     font-size: 2em;
     text-shadow: 2px 2px 5px black;
-    border-bottom:solid 15px rgba(0,0,0,0.8);
+    border-bottom-width:15px;
+    border-bottom-style:groove;
+    border-bottom-color:rgba(0,0,0,0.8);
 }
 
 .cards{
@@ -133,9 +137,9 @@ a {
 
     
     .contactus{
-		text-align:center;
-		background-color: black;
-		color: yellow;
+	text-align:center;
+	background-color: black;
+	color: yellow;
     }
     .contactelements{
         display: flex;
