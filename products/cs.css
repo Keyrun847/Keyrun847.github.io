@@ -13,7 +13,7 @@ body{
     text-align: justify;
 }
 .navbar-nav{
-  margin-left: auto;
+    margin-left: auto;
 }
 .navbar{
     background-color: black;
@@ -22,5 +22,5 @@ body{
 .imgbox{
     margin-top: 2%;
     color:yellow;
-    font-size: 3em;
+    font-size: 3rem;
 }
