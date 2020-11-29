@@ -161,6 +161,11 @@ a{
     .cimg{
         height: 480px;
     }
+    
+    .video{
+        height: 300px;
+        width: 450px;
+    }
 
 }
 
