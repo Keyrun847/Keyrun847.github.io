@@ -6,7 +6,6 @@
       
     <title>Tejas Suppliers</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -14,8 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css">
       
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   </head>
   <body>
 
@@ -25,9 +25,9 @@
 
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-      <a class="navbar-brand animate__animated animate__backInLeft" href="#" style="color:yellow; font-family: 'Audiowide', cursive;text-shadow: 2px 2px 0 green;">TEJAS SUPPLIERS</a>
+      <a class="navbar-brand animate__animated animate__backInLeft animate__slow" href="#" style="color:yellow; font-family: 'Audiowide', cursive;text-shadow: 2px 2px 0 green;">TEJAS SUPPLIERS</a>
 
-      <button style="box-shadow: 1px 1px 2px yellow, -1px -1px 5px ;" class="navbar-toggler animate__animated animate__backInRight" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button style="box-shadow: 1px 1px 2px yellow, -1px -1px 5px ;" class="navbar-toggler animate__animated animate__backInRight animate__slow" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -112,7 +112,7 @@
 
 <!-- Intro -->
 <div class="intro">
-  <div class="container animate__animated animate__backInUp">
+  <div class="container first">
     <h6 class="jtext1"><span style="font-size: 40px;"><b>W</b></span>e are a diversified forward-looking company primarily engaged in the natural resources business from Prospecting, Exploration, Mining and Processing of M-SAND to marketing and sales of our commodities.</h6><br>
     <h6 class="jtext2">"At Tejas Suppliers we strongly believe in Preserving the Environment by Mindful and Scientific mining practices"</h6>
   </div>
@@ -126,7 +126,7 @@
 <div id="products">
     <p class="products-title"><b>Our Products</b></p>
     <div class="cards container-fluid list-group list-group-horizontal-md">
-    <div class="card text-center">
+    <div class="card card1 text-center">
         <a href="products/cs.html">
           <img class="card-img-top" src="images/cs.jpg" alt="Card image cap">
         <div class="card-body">
@@ -134,7 +134,7 @@
         </div>
         </a>
     </div>
-    <div class="card text-center">
+    <div class="card card2 text-center">
         <a href="products/ps.html">
           <img class="card-img-top" src="images/ps.jpg" alt="Card image cap">
         <div class="card-body">
@@ -221,17 +221,32 @@
             </div>
           </div>
       </div>
-
+      
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+      
       <script>
-          $(document).ready(function() {
-              setTimeout(function(){
-                  $('body').addClass('loaded');
-                  $('h1').css('color','#222222');
-                }, 1500);
-              });
+        
+        $(document).ready(function(){
+            $('.first').waypoint(function(direction){
+                $('.first').addClass('animated zoomIn')
+            },{
+                offset: '50%'
+            });
+            
+            $('.card1').waypoint(function(direction){
+                $('.card1').addClass('animated rotateInDownLeft')
+            },{
+                offset: '50%'
+            });
+            $('.card2').waypoint(function(direction){
+                $('.card2').addClass('animated rotateInDownRight')
+            },{
+                offset: '50%'
+            });
+        });
     </script>
   </body>
 </html>
