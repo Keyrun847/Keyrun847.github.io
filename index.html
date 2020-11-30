@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   </head>
   <body>
 
@@ -25,9 +25,9 @@
 
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-      <a class="navbar-brand animate__animated animate__backInLeft animate__slow" href="#" style="color:yellow; font-family: 'Audiowide', cursive;text-shadow: 2px 2px 0 green;">TEJAS SUPPLIERS</a>
+      <a class="navbar-brand" href="#" style="color:yellow; font-family: 'Audiowide', cursive;text-shadow: 2px 2px 0 green;">TEJAS SUPPLIERS</a>
 
-      <button style="box-shadow: 1px 1px 2px yellow, -1px -1px 5px ;" class="navbar-toggler animate__animated animate__backInRight animate__slow" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button style="box-shadow: 1px 1px 2px yellow, -1px -1px 5px ;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -212,7 +212,7 @@
             <h8 style="float: left;">
             &copy;    2020 Tejas Suppliers.
             </h8>
-            <div style="float: right">
+            <div class="toparrow" style="float: right">
                 <a href="#top">
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
@@ -231,7 +231,7 @@
         
         $(document).ready(function(){
             $('.first').waypoint(function(direction){
-                $('.first').addClass('animated zoomIn')
+                $('.first').addClass('animated fadeInUp')
             },{
                 offset: '50%'
             });
@@ -243,6 +243,21 @@
             });
             $('.card2').waypoint(function(direction){
                 $('.card2').addClass('animated rotateInDownRight')
+            },{
+                offset: '50%'
+            });
+            $('.contactnum').waypoint(function(direction){
+                $('.contactnum').addClass('animated zoomIn')
+            },{
+                offset: '50%'
+            });
+            $('.address').waypoint(function(direction){
+                $('.address').addClass('animated zoomIn')
+            },{
+                offset: '50%'
+            });
+            $('.whatsapp').waypoint(function(direction){
+                $('.whatsapp').addClass('animated zoomIn')
             },{
                 offset: '50%'
             });
