@@ -35,9 +35,11 @@ body{
 .intro{
     text-align:justify;
     background-color: rgba(245, 243, 132,0.9);
-    padding:30px;
+    padding:25px 15px;
 }
-
+.second{
+    text-align:justify;
+}
 #products{
     border-width:15px;
     border-style:groove;
@@ -160,7 +162,9 @@ tbody tr:nth-child(even){
         height: 380px;
     }
     
-    
+    .intro{
+        padding: 30px 20px;
+    }
     .jtext1 {
         font-size: 30px;
     }
