@@ -113,8 +113,77 @@
 <!-- Intro -->
 <div class="intro">
   <div class="container first">
-    <h6 class="jtext1"><span style="font-size: 40px;"><b>W</b></span>e are a diversified forward-looking company primarily engaged in the natural resources business from Prospecting, Exploration, Mining and Processing of M-SAND to marketing and sales of our commodities.</h6><br>
-    <h6 class="jtext2">"At Tejas Suppliers we strongly believe in Preserving the Environment by Mindful and Scientific mining practices"</h6>
+      <h6 class="jtext1"><span style="font-size: 30px;"><b>W</b></span>e are a diversified forward-looking company primarily engaged in the natural resources business from Prospecting, Exploration, Mining and Processing of M-SAND to marketing and sales of our commodities.</h6>
+      <br>
+      
+      <h6 class="jtext2">"At Tejas Suppliers we strongly believe in Preserving the Environment by Mindful and Scientific mining practices"</h6>
+      <br>
+      <div class="second">
+      <h6><b><span style="font-size: 30px;">W</span>hy Manufactured Sand is Used?</b>
+      <br>
+      <br>      
+        Manufactured sand is an alternative for river sand. Due to fast growing construction industry, the demand for sand has increased tremendously, causing deficiency of suitable river sand in most part of the world. Maharashtra Government also has banned River Sand.
+    <br>
+    <br>
+          
+          Due to the depletion of good quality river sand for the use of construction, the use of manufactured sand has been increased. Another reason for use of M-Sand is its availability and transportation cost.
+          <br>
+          <br>
+          <br>
+      
+    <b>The differences between M-sand and River Sand</b>
+          </h6>
+      </div>
+      
+          <br>
+          <div class="table">
+      <table>
+        <thead>
+            <tr>
+                <th>Parameters</th>
+                <th>M-Sand</th>
+                <th>River Sand</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Source of the material</b></td>
+                <td>The source of the crushed sand is a Quarry.</td>
+                <td>This is naturally available and extracted from the riverbanks or river river beds.</td>
+            </tr>
+            <tr>
+                <td><b>Adulteration</b></td>
+                <td>Less adulteration</td>
+                <td>More since the material is scarcely available</td>
+            </tr>
+            <tr>
+                <td><b>Eco-Friendly</b></td>
+                <td>Though Msand is manufactured from large rocks it causes less damage compared to river sand</td>
+                <td>River sand is taken from the river bed making the river go dry soon. It also creates an imbalance in the eco-system</td>
+            </tr>
+            <tr>
+                <td><b>Texture</b></td>
+                <td>Angular and rough texture, making it easy for bonding with cement and aggregate</td>
+                <td>Round and smooth</td>
+            </tr>
+            <tr>
+                <td><b>Strength</b></td>
+                <td>High concrete strength is achieved with MSand</td>
+                <td>Lower concrete strength</td>
+            </tr>
+            <tr>
+                <td><b>Impurities</b></td>
+                <td>It is free from silt and clay particles</td>
+                <td>High silt content</td>
+            </tr>
+            <tr>
+                <td><b>Quality Control</b></td>
+                <td>Better quality control since it is manufactured</td>
+                <td>Lower quality control since it occurs naturally</td>
+            </tr>
+        </tbody>
+      </table>
+      </div>
   </div>
 </div>
 
@@ -191,7 +260,7 @@
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
                 </svg> Email</h5>
-                <h6>tejas.msand9@gmail.com</h6>
+                <h6>tejassuppliers.msand@gmail.com</h6>
         </div>
         </div>
       </div>
@@ -235,7 +304,16 @@
             },{
                 offset: '50%'
             });
-            
+            $('.second').waypoint(function(direction){
+                $('.second').addClass('animated slideInLeft')
+            },{
+                offset: '50%'
+            });
+            $('tr').waypoint(function(direction){
+                $('tr').addClass('animated flipInX')
+            },{
+                offset: '50%'
+            });
             $('.card1').waypoint(function(direction){
                 $('.card1').addClass('animated rotateInDownLeft')
             },{
