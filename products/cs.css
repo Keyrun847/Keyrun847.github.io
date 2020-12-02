@@ -31,12 +31,20 @@ body{
 .card{
     width: auto;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 425px) {
     img{
         height: 220px;
     }
+    .secbody{
+        font-size: 1rem;
+    }
 }
 
+@media only screen and (min-width: 425px) {
+    img{
+        height: 350px;
+    }
+}
 
 @media only screen and (min-width: 769px) {
     .secbody{
@@ -50,6 +58,6 @@ body{
     }
     img{
         width:auto;
-        height: 400px;
+        height: 350px;
     }
 }
