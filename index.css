@@ -139,10 +139,10 @@ tbody tr:nth-child(even){
 
 
 
-.first,.second,tr,.card2,.card1,.contactnum,.address,.whatsapp{
+.first,.second,tr,.card2,.card1,.contactnum,.address,.whatsapp,.about-text,.video{
     opacity: 0;
 }
-.first.animated,.second.animated,tr.animated,.third.animated,.card1.animated,.card2.animated,.contactnum.animated,.address.animated,.whatsapp.animated{
+.first.animated,.second.animated,tr.animated,.third.animated,.card1.animated,.card2.animated,.contactnum.animated,.address.animated,.whatsapp.animated,.about-text.animated,.video.animated{
     opacity: 1;
 }
 
@@ -186,6 +186,16 @@ tbody tr:nth-child(even){
         margin-bottom: 2%;
         padding: 5px;
         width: 20rem;
+    }
+    
+    .about-elements{
+        display: flex;
+    }
+    .about-text{
+        flex: 0.5;
+    }
+    .video{
+        flex: 0.5;
     }
 
     

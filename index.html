@@ -215,19 +215,23 @@
 
       <!-- About Us -->
 
-    <div id="about" class="about-section">
+<div id="about" class="about-section">
             <h1>About Us</h1>
+    <div class="about-elements">
+        <div class="about-text">
             <h6>Some text about who we are and what we do.</h6>
             <h6>Resize the browser window to see that this page is responsive by the way.</h6>
         <br>
-            <div class="video">
+        </div>
+        <div class="video">
             <video width="100%" height="100%" controls autoplay>
             <source src="videos/ts.mp4" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
             Your browser does not support the video tag.
             </video>
-            </div>
+        </div>
     </div>
+</div>
 
 
     <!-- Contact us -->
@@ -327,6 +331,16 @@
             });
             $('.card2').waypoint(function(direction){
                 $('.card2').addClass('animated rotateInDownRight')
+            },{
+                offset: '50%'
+            });
+            $('.about-text').waypoint(function(direction){
+                $('.about-text').addClass('animated zoomInLeft')
+            },{
+                offset: '50%'
+            });
+            $('.video').waypoint(function(direction){
+                $('.video').addClass('animated bounceInUp')
             },{
                 offset: '50%'
             });
