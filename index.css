@@ -114,25 +114,25 @@ a{
     animation-duration: 2s;
 }
 
- table{
-        width: 100%;        
-        border-collapse: collapse;
+table{
+    width: 100%;        
+    border-collapse: collapse;
 }
 th,td{
-        padding: 8px;
-        border: 1px solid #dee2e6;
-        text-align: center;
+    padding: 8px;
+    border: 1px solid #dee2e6;
+    text-align: center;
 }
 th{
-        height: 40px;
-        text-align: center;
-        background-color: white;
+    height: 40px;
+    text-align: center;
+    background-color: white;
 }
 tbody tr:nth-child(odd){
-        background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 tbody tr:nth-child(even){
-        background-color: white;
+    background-color: white;
 }
 
 /* animation */
@@ -195,9 +195,11 @@ tbody tr:nth-child(even){
     }
     .about-text{
         flex: 0.5;
+        padding: 20px;
     }
     .video{
         flex: 0.5;
+        padding: 20px;
     }
 
     
