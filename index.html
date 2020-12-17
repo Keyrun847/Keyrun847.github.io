@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
     <title>Tejas Suppliers</title>
+      <link rel="icon" href="images/logo.jpg" type="image/icon">
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -25,7 +26,7 @@
 
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-      <a class="navbar-brand" href="#" style="color:yellow; font-family: 'Audiowide', cursive;text-shadow: 2px 2px 0 green;">TEJAS SUPPLIERS</a>
+      <a class="navbar-brand" href="#" style="color:yellow">TEJAS SUPPLIERS</a>
 
       <button style="box-shadow: 1px 1px 2px yellow, -1px -1px 5px ;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -113,7 +114,7 @@
 <!-- Intro -->
 <div class="intro">
     
-    <hr style="border-top: dotted 7px; width: 15%;margin-bottom: 30px;">
+    <hr style="border-top: dotted 7px; width: 20%;margin-bottom: 30px;">
     
   <div class="container first">
       <h6 class="jtext1">We are a diversified forward-looking company primarily engaged in the natural resources business from Prospecting, Exploration, Mining and Processing of M-SAND to marketing and sales of our commodities.</h6>
@@ -280,7 +281,7 @@
           <!-- footer -->
       
       
-<footer  class="footer" style="background-color: black; color: yellow;padding:10px 20px;text-align: center;">
+<footer  class="footer">
         <div class="copyright" style="text-align: left">
             &copy;    2020 Tejas Suppliers.
         </div>
@@ -298,76 +299,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
-      
-      <script>
-          
-        $(document).ready(function () {
-            $(document).click(function (event) {
-                var click = $(event.target);
-                var _open = $(".navbar-collapse").hasClass("show");
-                if (_open === true && !click.hasClass("navbar-toggler")) {
-                    $(".navbar-toggler").click();
-                }
-            });
-        });
-        
-        $(document).ready(function(){
-            $('.first').waypoint(function(direction){
-                $('.first').addClass('animated fadeInUp')
-            },{
-                offset: '50%'
-            });
-            $('.second').waypoint(function(direction){
-                $('.second').addClass('animated fadeInUp')
-            },{
-                offset: '50%'
-            });
-            $('.line').waypoint(function(direction){
-                $('.line').addClass('animated zoomIn')
-            },{
-                offset: '50%'
-            });
-            $('tr').waypoint(function(direction){
-                $('tr').addClass('animated flipInX')
-            },{
-                offset: '50%'
-            });
-            $('.card1').waypoint(function(direction){
-                $('.card1').addClass('animated rotateInDownLeft')
-            },{
-                offset: '50%'
-            });
-            $('.card2').waypoint(function(direction){
-                $('.card2').addClass('animated rotateInDownRight')
-            },{
-                offset: '50%'
-            });
-            $('.about-text').waypoint(function(direction){
-                $('.about-text').addClass('animated zoomIn')
-            },{
-                offset: '50%'
-            });
-            $('.video').waypoint(function(direction){
-                $('.video').addClass('animated zoomIn')
-            },{
-                offset: '50%'
-            });
-            $('.contactnum').waypoint(function(direction){
-                $('.contactnum').addClass('animated zoomIn')
-            },{
-                offset: '50%'
-            });
-            $('.address').waypoint(function(direction){
-                $('.address').addClass('animated zoomIn')
-            },{
-                offset: '50%'
-            });
-            $('.whatsapp').waypoint(function(direction){
-                $('.whatsapp').addClass('animated zoomIn')
-            },{
-                offset: '50%'
-            });
-        });
-    </script>
+      <script src="script/script.js"></script>
   </body>
 </html>
