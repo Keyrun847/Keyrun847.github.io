@@ -267,19 +267,17 @@ a{
     .card{
         width:15rem;
     }
-    .navbar-brand{
-        font-size: 100%;
-    }
 }
 @media only screen and (min-width: 769px){
     .about-text{
         padding-top: 60px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-size: 22px;
     }
 }
-@media only screen and (max-width: 295px){
+@media only screen and (max-width: 600px){
     .navbar-brand{
+        font-size: 100%;
     }
 }
