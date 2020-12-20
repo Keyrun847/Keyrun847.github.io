@@ -267,6 +267,9 @@ a{
     .card{
         width:15rem;
     }
+    .navbar-brand{
+        font-size: 100%;
+    }
 }
 @media only screen and (min-width: 769px){
     .about-text{
@@ -274,5 +277,9 @@ a{
         padding-left: 50px;
         padding-right: 50px;
         font-size: 22px;
+    }
+}
+@media only screen and (max-width: 295px){
+    .navbar-brand{
     }
 }
