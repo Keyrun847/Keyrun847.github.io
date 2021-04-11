@@ -1,5 +1,6 @@
 body{
     background-image: url(../images/bc.jpeg);
+    Background-position: fixed;
 }
 a:any-link{
     color: inherit;
