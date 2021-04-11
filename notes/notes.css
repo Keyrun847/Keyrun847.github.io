@@ -1,5 +1,6 @@
 body{
     background-image: url(../images/bc.jpeg);
+    background-attachment: fixed;
 }
 a:any-link{
     color: inherit;
@@ -22,6 +23,7 @@ box-sizing: border-box;
 
 html {
 background-color: #ecf9ff;
+    scroll-behavior: smooth;
 }
 
 body {

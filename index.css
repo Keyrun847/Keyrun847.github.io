@@ -1,5 +1,6 @@
 body{
     background-image: url(images/bc.jpeg);
+    background-attachment: fixed;
 }
 
 .about-section {
