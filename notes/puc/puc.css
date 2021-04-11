@@ -1,0 +1,38 @@
+body{
+    background-image:url(/images/bc.jpeg);
+}
+.cards{
+    margin: 3%;
+}
+.card-header{
+    text-align: center;
+}
+a:any-link{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (min-width: 600px) {
+    .cards1{
+        display: flex;
+    }
+    .physics{
+        flex: 0.5;
+    }
+    .chemistry{
+        flex: 0.5; 
+    }
+    .cards2{
+        display: flex;
+    }
+    .maths{
+        flex: 0.5;
+    }
+    .biology{
+        flex: 0.5; 
+    }
+}

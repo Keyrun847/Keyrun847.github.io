@@ -1,0 +1,51 @@
+body{
+    background-image:url(/images/bc.jpeg);
+}
+.cards{
+    margin: 3%;
+}
+.card-header{
+    text-align: center;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .cards1{
+        display: flex;
+    }
+    .physics{
+        flex: 0.5;
+    }
+    .chemistry{
+        flex: 0.5; 
+    }
+    .cards2{
+        display: flex;
+    }
+    .maths{
+        flex: 0.5;
+    }
+    .zoology{
+        flex: 0.5; 
+    }
+    .cards3{
+        display: flex;
+    }
+    .botany{
+        flex: 0.5;
+    }
+    .geology{
+        flex: 0.5; 
+    }
+    .cards4{
+        display: flex;
+    }
+    .cs{
+        flex: 0.5;
+    }
+    .electronics{
+        flex: 0.5; 
+    }
+}
