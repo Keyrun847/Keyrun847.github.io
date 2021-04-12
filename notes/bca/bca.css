@@ -6,7 +6,7 @@
 }
 body {
     background-image: url(../../images/bc.jpeg);
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Open Sans',serif;
 }
 fieldset {
     border: 0;
@@ -31,7 +31,7 @@ label {
 }
 select{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     font-size: 16px;
     font-weight: 700;
     font-family: 'Poppins',sans-serif;

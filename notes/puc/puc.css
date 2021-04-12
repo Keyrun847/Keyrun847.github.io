@@ -28,7 +28,7 @@ background-color: #ecf9ff;
 
 body {
 color: #272727;
-font-family: 'Quicksand', serif;
+font-family: 'Open Sans', serif;
 font-style: normal;
 font-weight: 400;
 letter-spacing: 0;
@@ -116,12 +116,6 @@ font-size: 0.875rem;
 line-height: 1.5;
 margin-bottom: 1.25rem;
 font-weight: 400;
-}
-
-
-
-@media only screen and (min-width: 693px) {
-   
 }
 @media only screen and (min-width: 1252px) {
     .card-group{

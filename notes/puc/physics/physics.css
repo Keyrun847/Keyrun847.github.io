@@ -11,6 +11,7 @@ body{
 .box {
     background: #f2f2f2;
     box-shadow: none;
+    margin: 2vh 0;
 }
 .code-sample {
         background-color: #333;
@@ -29,10 +30,11 @@ body{
         opacity: 1;
         transform: translateY(0px);
 }
-.box{
-    margin: 2vh 0;
+.section{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2vh;
 }
-
 
 .title{
     text-align: center;
