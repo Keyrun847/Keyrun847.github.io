@@ -38,6 +38,7 @@ letter-spacing: 0;
 .main{
 max-width: 1200px;
 margin: 0 auto;
+    min-height: 85vh;
 }
 
 .btn {
@@ -137,5 +138,13 @@ font-weight: 400;
 @media only screen and (min-width: 1252px) {
     .card-group{
         padding: 3%;
+    }
+}
+@media only screen and (min-width: 895px) {
+    .cards{
+        position: absolute;
+        top: 18vh;
+        left: 0;
+        right: 0;
     }
 }
