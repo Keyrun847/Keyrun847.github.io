@@ -4,6 +4,7 @@ html{
 body{
     background-image: url(images/bc.jpeg);
     background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .about-section {
@@ -33,12 +34,14 @@ a:any-link{
 .footer{
     background-color:whitesmoke;
     padding:10px 20px;
-    text-align: center;
+    display: flex;
 }
 .copyright{
-    text-align: center;
+    flex: 0.5;
 }
-
+.madeby{
+    flex: 0.5;
+}
 @media only screen and (min-width: 600px) {
     .contactus{
 	    text-align:center;

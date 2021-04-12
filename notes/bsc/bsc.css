@@ -10,6 +10,7 @@ html{
 body {
     background-image: url(../../images/bc.jpeg);
     font-family: 'Open Sans',serif;
+    min-height: 100vh;
 }
 fieldset {
     border: 0;
@@ -78,4 +79,17 @@ select{
 }
 option{
     overflow: hidden;
+}
+
+
+.footer{
+    background-color:whitesmoke;
+    padding:10px 20px;
+    display: flex;
+}
+.copyright{
+    flex: 0.5;
+}
+.madeby{
+    flex: 0.5;
 }

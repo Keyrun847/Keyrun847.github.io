@@ -1,6 +1,7 @@
 body{
     background-image: url(../../images/bc.jpeg);
     background-attachment: fixed;
+    min-height: 100vh;
 }
 a:any-link{
     color: inherit;
@@ -117,6 +118,20 @@ line-height: 1.5;
 margin-bottom: 1.25rem;
 font-weight: 400;
 }
+
+.footer{
+    background-color:whitesmoke;
+    padding:10px 20px;
+    display: flex;
+}
+.copyright{
+    flex: 0.5;
+}
+.madeby{
+    flex: 0.5;
+}
+
+
 @media only screen and (min-width: 1252px) {
     .card-group{
         padding: 3%;
