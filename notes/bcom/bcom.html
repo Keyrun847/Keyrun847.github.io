@@ -284,11 +284,11 @@
             $(function(){
                 $('#sub').change(function(){
                     $('.data').hide();
-                    $('#'+$(this).val()).show();
+                    $('#'+$(this).val()).fadeIn();
                 });
                 $('#sem').change(function(){
                     $('.data').hide();
-                    $('#'+$('#sub').val()).show();
+                    $('#'+$('#sub').val()).fadeIn();
                 });
             });
           function populate(s1,s2){
