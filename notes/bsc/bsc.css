@@ -29,7 +29,6 @@ label {
     padding: 0 0;
     max-width: 90vw;
     margin: 0 auto;
-    min-height: 70vh;
 }
 .menu,.content{
     width: 100%;
@@ -62,6 +61,7 @@ select{
     margin-bottom: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid gainsboro;
+    display: flex;
 }
 .content p:last-child{
     border-bottom: none;
@@ -70,9 +70,12 @@ select{
 }
 .content p b{
     font-weight: 500;
+    flex: 0.7;
+    margin-right: 2vh;
 }
 .content p span{
-    float: right;
+    text-align: right;
+    flex: 0.3;
     font-weight: 600;
 }
 .data{
@@ -81,16 +84,6 @@ select{
 option{
     overflow: hidden;
 }
-
-
-.footer{
-    background-color:whitesmoke;
-    padding:1vh 2vh;
-    display: flex;
-}
-.copyright{
-    flex: 0.5;
-}
-.madeby{
-    flex: 0.5;
+.extra{
+    flex: 1;
 }

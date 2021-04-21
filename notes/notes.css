@@ -122,19 +122,6 @@ font-weight: 400;
 
 
 
-.footer{
-    background-color:whitesmoke;
-    padding:1vh 2vh;
-    display: flex;
-}
-.copyright{
-    flex: 0.5;
-}
-.madeby{
-    flex: 0.5;
-}
-
-
 @media only screen and (min-width: 1252px) {
     .card-group{
         padding: 3%;

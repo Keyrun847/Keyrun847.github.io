@@ -77,23 +77,6 @@ table th {
 }
 
 
-
-.footer{
-    background-color:whitesmoke;
-    padding:1vh 2vh;
-    display: flex;
-}
-.copyright{
-    flex: 0.5;
-}
-.madeby{
-    flex: 0.5;
-}
-
-
-
-
-
 @media screen and (max-width: 600px) {
   table {
     border: 0;

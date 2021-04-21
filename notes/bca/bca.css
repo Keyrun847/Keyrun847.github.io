@@ -29,7 +29,6 @@ label {
     padding: 0 0;
     max-width: 90vw;
     margin: 0 auto;
-    min-height: 70vh;
 }
 .menu,.content{
     width: 100%;
@@ -80,18 +79,4 @@ select{
 }
 option{
     overflow: hidden;
-}
-
-
-
-.footer{
-    background-color:whitesmoke;
-    padding:1vh 2vh;
-    display: flex;
-}
-.copyright{
-    flex: 0.5;
-}
-.madeby{
-    flex: 0.5;
 }

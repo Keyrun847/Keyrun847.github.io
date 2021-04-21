@@ -52,244 +52,415 @@
   </div>
 </nav>
       
-      <h1 style="margin-top: 5vh;color:white;text-align: center;">B.Sc NOTES</h1>
+      <h1 style="margin-top: 5vh;color:white;text-align: center;">BSC NOTES</h1>
       
       <div class="wrapper">
-          <h1 style="margin: 2vh;color:white">Select Semester</h1>
+          <h1 style="margin: 2vh;color:white">Select the Subject</h1>
         <div class="menu">
-            <select id="sem" name="sem" onchange="populate(this.id,'sub')">
+            <select id="sub" name="sub" onchange="populate(this.id,'sem')">
                 <option value="0">Select</option>
-                <option value="1st">1st semester</option>
-                <option value="2nd">2nd semester</option>
-                <option value="3rd">3rd semester</option>
-                <option value="4th">4th semester</option>
-                <option value="5th">5th semester</option>
-                <option value="6th">6th semester</option>
+                <option value="physics">Physics</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="maths">Mathematics</option>
+                <option value="botany">Botany</option>
+                <option value="zoology">Zoology</option>
+                <option value="cs">Cmputer Science</option>
+                <option value="geology">Geology</option>
             </select>
         </div>
-          <h1 style="margin:2vh 0;color:white">Select the Subject</h1>
+          <h1 style="margin:2vh 0;color:white">Select Semester</h1>
           <div class="menu">
-            <select id="sub" name="sub">
+            <select id="sem" name="sem">
                 <option value="0">Select</option>
             </select>
         </div>
       
       <div class="content">
-        <div id="fa" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="p1" class="data">
+            <p><b>Conservation Laws</b><span>Download</span></p>
+            <p><b>Gravitation</b><span>Download</span></p>
+            <p><b>Rigid Body Dynamics</b><span>Download</span></p>
+            <p><b>Elasticity</b><span>Download</span></p>
+            <p><b>Theory of Relativity</b><span>Download</span></p>
         </div>
-        <div id="math1" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="p2" class="data">
+            <p><b>Vector Analysis &amp; Maxwell's Electromagnetic Theory</b><span>Download</span></p>
+            <p><b>DC Circuit Analysis &amp; Transient Circuits</b><span>Download</span></p>
+            <p><b>Magnetostatics, Magnetic Properties &amp; EMI</b><span>Download</span></p>
+            <p><b>Alternating Current</b><span>Download</span></p>
+            <p><b>Electrical Instruments &amp; Dielectrics</b><span>Download</span></p>
         </div>
-        <div id="cf" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="p3" class="data">
+            <p><b>KTG, Transport Phenomina &amp; Blackbody Radiation</b><span>Download</span></p>
+            <p><b>Thermodynamics</b><span>Download</span></p>
+            <p><b>Fluids</b><span>Download</span></p>
+            <p><b>Low Temp. &amp; Low Pressure Physics</b><span>Download</span></p>
+            <p><b>Waves - Sound</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Skill Enhancement Course</b></p>
+            <p><b>Atmosphere</b><span>Download</span></p>
+            <p><b>Weather</b><span>Download</span></p>
+            <p><b>Climate</b><span>Download</span></p>
+            <p><b>Basics of Weather Forecasting</b><span>Download</span></p>
         </div>
-        <div id="pc" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="p4" class="data">
+            <p><b>Thermodynamic Relations</b><span>Download</span></p>
+            <p><b>Statistical Mechanics</b><span>Download</span></p>
+            <p><b>Thermo-Electricity</b><span>Download</span></p>
+            <p><b>Interference</b><span>Download</span></p>
+            <p><b>Diffraction &amp; Polarization</b><span>Download</span></p>
+            <p style="text-align: center;"><b>Skill Enhancement Course</b></p>
+            <p><b>Fossil Fuels</b><span>Download</span></p>
+            <p><b>Alternate Sources of Energy</b><span>Download</span></p>
+            <p><b>Piezoelectric Energy Harvesting</b><span>Download</span></p>
+            <p><b>Electromagnetic Energy Harvesting</b><span>Download</span></p>
         </div>
-        <div id="ic" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="p5" class="data">
+            <p><b>Mathematical Physics - 1</b><span>Download</span></p>
+            <p><b>Nuclear &amp; Practical Physics - 1</b><span>Download</span></p>
+            <p><b>Nuclear &amp; Practical Physics - 2</b><span>Download</span></p>
+            <p><b>Classical Mechanics</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Elective - 1</b></p>
+            <p><b>Quantum Mech - 1</b><span>Download</span></p>
+            <p><b>Elecronics - 1</b><span>Download</span></p>
+            <p><b>Electronics - 2</b><span>Download</span></p>
+            <p><b>OptoElectronics</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Elective - 2</b></p>
+            <p><b>Elecronics - 1</b><span>Download</span></p>
+            <p><b>Electronics - 2</b><span>Download</span></p>
+            <p><b>OptoElectronics</b><span>Download</span></p>
+            <p><b>Quantum Mech - 1</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Skill Enhancement Course</b></p>
+            <p><b>Unit - 1</b><span>Download</span></p>
+            <p><b>Unit - 2</b><span>Download</span></p>
         </div>
-        <div id="fm" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="p6" class="data">
+            <p><b>Mathematical Physics - 2</b><span>Download</span></p>
+            <p><b>Atomic Physics</b><span>Download</span></p>
+            <p><b>Molecular Physics &amp; Lasers</b><span>Download</span></p>
+            <p><b>Atmospheric Physics</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Elective - 3</b></p>
+            <p><b>Quantum Mech - 2</b><span>Download</span></p>
+            <p><b>Condensed Matter Physics - 1</b><span>Download</span></p>
+            <p><b>Magnetic Properties of Matter &amp; Dielectrics</b><span>Download</span></p>
+            <p><b>Nanomaterials &amp; Special Materials</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Elective - 4</b></p>
+            <p><b>Condensed Matter Physics - 1</b><span>Download</span></p>
+            <p><b>Magnetic Properties of Matter &amp; Dielectrics</b><span>Download</span></p>
+            <p><b>Nanomaterials &amp; Special Materials</b><span>Download</span></p>
+            <p><b>Quantum Mech - 2</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Skill Enhancement Course</b></p>
+            <p><b>Unit - 1</b><span>Download</span></p>
+            <p><b>Unit - 2</b><span>Download</span></p>
         </div>
-        <div id="math2" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+          <!-- chemistry -->
+          
+        <div id="c1" class="data">
+            <p><b>Atomic Structure</b><span>Download</span></p>
+            <p><b>Chemical Bonding &amp; Molecular Structure</b><span>Download</span></p>
+            <p><b>Fundamentals of Organic Chem &amp; Alkene</b><span>Download</span></p>
+            <p><b>Purificaton of Organic Compounds and StereoChemistry</b><span>Download</span></p>
         </div>
-        <div id="dsc" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="c2" class="data">
+            <p><b>Chemical Energetics &amp; Ionic Equilibria 1</b><span>Download</span></p>
+            <p><b>Ionic Equilibria 2 &amp; Chemical Equilibrium</b><span>Download</span></p>
+            <p><b>Spectroscopy</b><span>Download</span></p>
+            <p><b>Alkyl &amp; Aryl Halides</b><span>Download</span></p>
+            <p><b>Aldehyde, Ketones, Carboxilic Acids, Ether &amp; Epoxites</b><span>Download</span></p>
         </div>
-        <div id="dlcd" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="c3" class="data">
+            <p><b>Solutions &amp; Liquids</b><span>Download</span></p>
+            <p><b>Electrochemistry &amp; Phase Equilibria</b><span>Download</span></p>
+            <p><b>Orientation,Alcohols &amp; Phenols</b><span>Download</span></p>
+            <p><b>Spectroscopy &amp; Aromatic Hydrocarbons</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Skill Enhancement Course</b></p>
+            <p><b>Chemistry of Cosmetics &amp; Perfumes</b><span>Download</span></p>
         </div>
-        <div id="hres" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+        <div id="c4" class="data">
+            <p><b>Transition Elements &amp; Coordination Chemistry</b><span>Download</span></p>
+            <p><b>Chemistry of d &amp; f Block Elements, Chelates</b><span>Download</span></p>
+            <p><b>Environmental Chemistry</b><span>Download</span></p>
+            <p><b>KTG &amp; Conductance</b><span>Download</span></p>
+            <p><b>Theory of Solids &amp; Chemical Kinetics</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Skill Enhancement Course</b></p>
+            <p><b>Fuel Chemistry</b><span>Download</span></p>
+            <p><b>Unit 2</b><span>Download</span></p>
+          </div>
+            
+        <div id="c5" class="data">
+            <p style="text-align: center;"><b>5.1</b></p>
+            <p><b>Nano materials, Theory of gravimetric analyssis &amp; Inorganic Polymers</b><span>Download</span></p>
+            <p><b>Heterocyclic Compounds , Green Chemistry ,Alkaloids</b><span>Download</span></p>
+            <p><b>Microwave spectroscopy &amp; Vibrational Spectrum</b><span>Download</span></p>
+            <p><b>Retro Synthesis &amp; Prop of Polymers</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>5.2A</b></p>
+            <p><b>Industrial Chemistry</b><span>Download</span></p>
+            <p><b>Reagents &amp; Reactions &amp; Dyes</b><span>Download</span></p>
+            <p><b>Surface Chemistry &amp; 2nd Law of Thermodynamics</b><span>Download</span></p>
+            <p><b>Simple Collision Theory of Reaction rates &amp; Industrial Metullargy</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>5.2B</b></p>
+            <p><b>Basics</b><span>Download</span></p>
+            <p><b>Numerical Methods</b><span>Download</span></p>
+            <p><b>Differential Calculus</b><span>Download</span></p>
+            <p><b>Simultaneous Equations</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Skill Enhancement Course</b></p>
+            <p><b>Unit 1</b><span>Download</span></p>
+            <p><b>Unit 2</b><span>Download</span></p>
         </div>
-        <div id="dms" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
+            
+        <div id="c6" class="data">
+            <p style="text-align: center;"><b>6.1</b></p>
+            <p><b>Coordinate Chemistry 2 &amp; Bioinorganic Chemistry</b><span>Download</span></p>
+            <p><b>Carbohydrates Vitamins AminoAcids , Peptides &amp;Proteins</b><span>Download</span></p>
+            <p><b>Electronic Spectrum ,Physical prop &amp; Molecular Structure &amp; Quantum Chemistry</b><span>Download</span></p>
+            <p><b>Terpenoids, Organometallic Chemistry,Organic Synthesis via enolates &amp; Organic Reagents in inorganic analysis </b><span>Download</span></p>
             <p><b>Module 5</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>6.2A</b></p>
+            <p><b>Analytical Chemistry , Soil Analysis &amp; Fertiliser</b><span>Download</span></p>
+            <p><b>Electronic Spectra ofnTransition metal complexs &amp; Acids , Basis</b><span>Download</span></p>
+            <p><b>Chemotherapy , Soaps &amp; Detergents , Reaction mechanism </b><span>Download</span></p>
+            <p><b>NMR Spectroscopy, Photochemistry &amp; Solvents</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>6.2B</b></p>
+            <p><b>Literature Survey</b><span>Download</span></p>
+            <p><b>Methods of Sceintific Research &amp; Writing Scientific Papers</b><span>Download</span></p>
+            <p><b>Chemical Safety &amp;Ehical Handeling of Chemicals </b><span>Download</span></p>
+            <p><b>Data Analysis</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>Skill Enhancement Course</b></p>
+            <p><b>Pharmaceuticals</b><span>Download</span></p>
+            <p><b>Fermrntation</b><span>Download</span></p>
         </div>
-        <div id="oopj" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+          
+          
+        <!-- maths -->
+          
+          
+        <div id="m1" class="data">
+            <p><b>MATRICES AND DETERMINANTS</b><span>Download</span></p>
+            <p><b>REAL NUMBER SYSTEM</b><span>Download</span></p>
+            <p><b>LIMITS AND CONTINUITY</b><span>Download</span></p>
+            <p><b>HIGHER ORDER DERIVATIVES</b><span>Download</span></p>
+            <p><b>MEAN VALUE THEOREMS</b><span>Download</span></p>
         </div>
-        <div id="osp" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+        <div id="m2" class="data">
+            <p><b>Unit 1</b><span>Download</span></p>
+            <p><b>Unit 2</b><span>Download</span></p>
+            <p><b>Unit 3</b><span>Download</span></p>
+            <p><b>Unit 4</b><span>Download</span></p>
+            <p><b>Unit 5</b><span>Download</span></p>
         </div>
-        <div id="dccn" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+        <div id="m3" class="data">
+            <p style="text-align: center;"><b>3.1</b></p>
+            <p><b>Real Analysis-I</b><span>Download</span></p>
+            <p><b>Sequences</b><span>Download</span></p>
+            <p><b>Group Theory-I</b><span>Download</span></p>
+            <p><b>Differential equation-I</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>3.2</b></p>
+            <p><b>SET THEORY</b><span>Download</span></p>
+            <p><b>THEORY OF EQUATIONS</b><span>Download</span></p>
         </div>
-        <div id="daa" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+        <div id="m4" class="data">
+            <p><b>UNIT-I</b><span>Download</span></p>
+            <p><b>Infinite series I</b><span>Download</span></p>
+            <p><b>Infinite series II</b><span>Download</span></p>
+            <p><b>Differential Equations II</b><span>Download</span></p>
+            <p><b>Differential Equations III</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>4.2</b></p>
+            <p><b>Fourier series</b><span>Download</span></p>
+            <p><b>Fourier transforms</b><span>Download</span></p>
+          </div>
+            
+        <div id="m5" class="data">
+            <p style="text-align: center;"><b>5.1</b></p>
+            <p><b>Riemann Integration I</b><span>Download</span></p>
+            <p><b>Riemann Integration II:</b><span>Download</span></p>
+            <p><b>Improper integrals</b><span>Download</span></p>
+            <p><b>Beta and Gamma functions</b><span>Download</span></p>
+            <p><b>UNIT-V</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>5.2A</b></p>
+            <p><b>Solutions of Algebraic and transcendental equations &amp;Numerical solutions of non-homogeneous systems of linear algebraic equations</b><span>Download</span></p>
+            <p><b>Finite Differences &amp; Interpolation:</b><span>Download</span></p>
+            <p><b>Numerical differentiation &amp;  integration</b><span>Download</span></p>
+            <p><b>Solution of initial value problems</b><span>Download</span></p>
+            <p><b>Difference equations</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>5.2B</b></p>
+            <p><b>Kinematics</b><span>Download</span></p>
+            <p><b>Central Orbits</b><span>Download</span></p>
+            <p><b>Motion of a projectile &amp;Elastic Impact</b><span>Download</span></p>
+            <p><b>Calculus of Variations</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>5.3</b></p>
+            <p><b>Number theory I</b><span>Download</span></p>
+            <p><b>Number theory II</b><span>Download</span></p>
         </div>
-        <div id="acns" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+            
+        <div id="m6" class="data">
+            <p style="text-align: center;"><b>6.1</b></p>
+            <p><b>Complex Analysis</b><span>Download</span></p>
+            <p><b>Complex Integration</b><span>Download</span></p>
+            <p><b>UNIT-III</b><span>Download</span></p>
+            <p><b>UNIT-IV</b><span>Download</span></p>
+            <p><b>Rings and Integral domains</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>6.2A</b></p>
+            <p><b>Differential Equations</b><span>Download</span></p>
+            <p><b>Series Solutions of Ordinary Differential Equations</b><span>Download</span></p>
+            <p><b>Legendre equation and functions</b><span>Download</span></p>
+            <p><b>Partial differential equations of 1storder</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>6.2B</b></p>
+            <p><b>Topology</b><span>Download</span></p>
+            <p><b>Laplace transforms</b><span>Download</span></p>
+        
+            <p style="text-align: center;"><b>6.3</b></p>
+            <p><b>Basic Concepts of Graphs</b><span>Download</span></p>
+            <p><b>Sub – Graphs</b><span>Download</span></p>
         </div>
-        <div id="ajp" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+          
+          
+    <!-- botany -->
+          
+          
+          
+        <div id="b1" class="data">
+            <p><b>MATRICES AND DETERMINANTS</b><span>Download</span></p>
+            <p><b>REAL NUMBER SYSTEM</b><span>Download</span></p>
+            <p><b>LIMITS AND CONTINUITY</b><span>Download</span></p>
+            <p><b>HIGHER ORDER DERIVATIVES</b><span>Download</span></p>
+            <p><b>MEAN VALUE THEOREMS</b><span>Download</span></p>
         </div>
-        <div id="dbms" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+        <div id="m2" class="data">
+            <p><b>Unit 1</b><span>Download</span></p>
+            <p><b>Unit 2</b><span>Download</span></p>
+            <p><b>Unit 3</b><span>Download</span></p>
+            <p><b>Unit 4</b><span>Download</span></p>
+            <p><b>Unit 5</b><span>Download</span></p>
         </div>
-        <div id="se" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+        <div id="m3" class="data">
+            <p style="text-align: center;"><b>3.1</b></p>
+            <p><b>Real Analysis-I</b><span>Download</span></p>
+            <p><b>Sequences</b><span>Download</span></p>
+            <p><b>Group Theory-I</b><span>Download</span></p>
+            <p><b>Differential equation-I</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>3.2</b></p>
+            <p><b>SET THEORY</b><span>Download</span></p>
+            <p><b>THEORY OF EQUATIONS</b><span>Download</span></p>
         </div>
-        <div id="spt" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+          
+        <div id="m4" class="data">
+            <p><b>UNIT-I</b><span>Download</span></p>
+            <p><b>Infinite series I</b><span>Download</span></p>
+            <p><b>Infinite series II</b><span>Download</span></p>
+            <p><b>Differential Equations II</b><span>Download</span></p>
+            <p><b>Differential Equations III</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>4.2</b></p>
+            <p><b>Fourier series</b><span>Download</span></p>
+            <p><b>Fourier transforms</b><span>Download</span></p>
+          </div>
+            
+        <div id="m5" class="data">
+            <p style="text-align: center;"><b>5.1</b></p>
+            <p><b>Riemann Integration I</b><span>Download</span></p>
+            <p><b>Riemann Integration II:</b><span>Download</span></p>
+            <p><b>Improper integrals</b><span>Download</span></p>
+            <p><b>Beta and Gamma functions</b><span>Download</span></p>
+            <p><b>UNIT-V</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>5.2A</b></p>
+            <p><b>Solutions of Algebraic and transcendental equations &amp;Numerical solutions of non-homogeneous systems of linear algebraic equations</b><span>Download</span></p>
+            <p><b>Finite Differences &amp; Interpolation:</b><span>Download</span></p>
+            <p><b>Numerical differentiation &amp;  integration</b><span>Download</span></p>
+            <p><b>Solution of initial value problems</b><span>Download</span></p>
+            <p><b>Difference equations</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>5.2B</b></p>
+            <p><b>Kinematics</b><span>Download</span></p>
+            <p><b>Central Orbits</b><span>Download</span></p>
+            <p><b>Motion of a projectile &amp;Elastic Impact</b><span>Download</span></p>
+            <p><b>Calculus of Variations</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>5.3</b></p>
+            <p><b>Number theory I</b><span>Download</span></p>
+            <p><b>Number theory II</b><span>Download</span></p>
         </div>
-        <div id="cs" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
+            
+        <div id="m6" class="data">
+            <p style="text-align: center;"><b>6.1</b></p>
+            <p><b>Complex Analysis</b><span>Download</span></p>
+            <p><b>Complex Integration</b><span>Download</span></p>
+            <p><b>UNIT-III</b><span>Download</span></p>
+            <p><b>UNIT-IV</b><span>Download</span></p>
+            <p><b>Rings and Integral domains</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>6.2A</b></p>
+            <p><b>Differential Equations</b><span>Download</span></p>
+            <p><b>Series Solutions of Ordinary Differential Equations</b><span>Download</span></p>
+            <p><b>Legendre equation and functions</b><span>Download</span></p>
+            <p><b>Partial differential equations of 1storder</b><span>Download</span></p>
+            
+            <p style="text-align: center;"><b>6.2B</b></p>
+            <p><b>Topology</b><span>Download</span></p>
+            <p><b>Laplace transforms</b><span>Download</span></p>
+        
+            <p style="text-align: center;"><b>6.3</b></p>
+            <p><b>Basic Concepts of Graphs</b><span>Download</span></p>
+            <p><b>Sub – Graphs</b><span>Download</span></p>
         </div>
-        <div id="pwp" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
-        </div>
-        <div id="net" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
-        </div>
-        <div id="cc" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
-        </div>
-        <div id="wdp" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
-        </div>
-        <div id="bi" class="data">
-            <p><b>Module 1</b><span>Download</span></p>
-            <p><b>Module 2</b><span>Download</span></p>
-            <p><b>Module 3</b><span>Download</span></p>
-            <p><b>Module 4</b><span>Download</span></p>
-            <p><b>Module 5</b><span>Download</span></p>
-        </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
       </div>
-      </div>
-  
-      
-      
-      
-      <!-- footer -->
-      
-      
-        <footer  class="footer">
-            <div class="copyright" style="text-align: left">
-                &copy; BackBenchNotes
-            </div>
-            <div class="madeby" style="text-align: right">
-                Made by Kiran V
-            </div>
-        </footer>
-      
-      
-      
-      
+          
+
+          
+          
+          
+          
       
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
       <script>
             $(function(){
-                $('#sub').change(function(){
+                $('#sem').change(function(){
                     $('.data').hide();
                     $('#'+$(this).val()).fadeIn();
                 });
-                $('#sem').change(function(){
+                $('#sub').change(function(){
                     $('.data').hide();
-                    $('#'+$('#sub').val()).fadeIn();
+                    $('#'+$('#sem').val()).fadeIn();
                 });
             });
           function populate(s1,s2){
@@ -297,23 +468,26 @@
               var s2=document.getElementById(s2);
               
               s2.innerHTML = "<option value='0'>Select</option>";
-              if(s1.value == "1st"){
-                  var optionArray = ['fa|Financial Accounting','math1|Mathematics - 1','cf|Computer Fundamentals','pc|Programming in C','ic|Indian Constitution'];
+              if(s1.value == "physics"){
+                  var optionArray = ['p1|1st Semester','p2|2nd Semester','p3|3rd Semester','p4|4th Semester','p5|5th Semester','p6|6th Semester'];
               }
-              else if(s1.value == "2nd"){
-                  var optionArray = ['fm|Financial Management','math2|Mathematics - 2','dsc|Data Structures Using C','dlcd|Digital Logic and Computer Design','hres|Human Rights and Environmental Studies'];
+              else if(s1.value == "chemistry"){
+                  var optionArray = ['c1|1st Semester','c2|2nd Semester','c3|3rd Semester','c4|4th Semester','c5|5th Semester','c6|6th Semester'];
               }
-              else if(s1.value == "3rd"){
-                  var optionArray = ['dms|Discrete Mathematical Strcture','oopj|Object Oriented Programming Using Java','osp|Operating System Principles','dccn|Data Communications & Computer Networks'];
+              else if(s1.value == "maths"){
+                  var optionArray = ['m1|1st Semester','m2|2nd Semester','m3|3rd Semester','m4|4th Semester','m5|5th Semester','m6|6th Semester'];
               }
-              else if(s1.value == '4th'){
-                  var optionArray = ['daa|Design and Analysis of Algorithms','acns|Advanced Computer Networks and Security','ajp|Advanced Java Programming','dbms|Database Management System'];
+              else if(s1.value == 'botany'){
+                  var optionArray = ['b1|1st Semester','b2|2nd Semester','b3|3rd Semester','b4|4th Semester','b5|5th Semester','b6|6th Semester'];
               }
-              else if(s1.value == '5th'){
-                  var optionArray = ['se|Software Engineering','spt|Software Programming and Testing','cs|Cyber Security','pwp|Programming with Python','net|.Net Framework Using C#'];
+              else if(s1.value == 'zoology'){
+                  var optionArray = ['z1|1st Semester','z2|2nd Semester','z3|3rd Semester','z4|4th Semester','z5|5th Semester','z6|6th Semester'];
               }
-              else if(s1.value == '6th'){
-                  var optionArray = ['cc|Cloud Computing','wdp|Web Designing and Programming','bi|Business Intelligence'];
+              else if(s1.value == 'cs'){
+                  var optionArray = ['cs1|1st Semester','cs2|2nd Semester','cs3|3rd Semester','cs4|4th Semester','cs5|5th Semester','cs6|6th Semester'];
+              }
+              else if(s1.value == 'geology'){
+                  var optionArray = ['g1|1st Semester','g2|2nd Semester','g3|3rd Semester','g4|4th Semester','g5|5th Semester','g6|6th Semester'];
               }
               for(var option in optionArray){
                   
