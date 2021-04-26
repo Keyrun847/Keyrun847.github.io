@@ -9,12 +9,56 @@ body{
     transition: opacity 1s;
 }
 
+
+.welcome {
+    color: floralwhite;
+    margin: 5vh 5vw;
+}
+
+.hi,.we,.backbenchers{
+    opacity: 0;
+    text-align: left;
+}
+.hi{
+    animation-delay: 0.7s;
+    font-size: 2.5rem;
+}
+.hi span{
+    background-color: #bdbd46;
+    color: black;
+    padding: 0px 8px;
+    border-radius: 10px;
+}
+.we{
+    animation-delay: 1.8s;
+    font-size: 1.8rem;
+}
+.backbenchers{
+    animation-delay: 2.1s;
+    font-size: 2.5rem;
+}
+.backbenchers span{
+    background-color: #bdbd46;
+    color: black;
+    padding: 0px 12px;
+    border-radius: 10px;
+}
+.quote{
+    text-align: right;
+    text-align: justify-all;
+    color: snow;
+}
+.hi.animated,.we.animated,.backbenchers.animated{
+    opacity: 1;
+}
+
+
+
 .about-section {
     padding: 20px;
     text-align: center;
     background-color: ivory;
     color: black;
-    margin: 5%;
 }
 .about-text{
     text-align: justify-all;
