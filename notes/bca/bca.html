@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="../../images/logo.png" type="image/icon">
+      
+      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     
+      
+        <link rel="stylesheet" href="bca.css" type="text/css">
+
+    <title>BackBenchNotes</title>
+  </head>
+    
+  <body onload="document.body.style.opacity='1' ">
+      
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../../index.html" style="font-family: 'RocknRoll One', sans-serif;"><img src="../../images/logo.png" style="width:30px"> BackBenchNotes</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../notes.html">Notes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">PYQ Papers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Test Papers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../../index.html#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../../index.html#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      
+      <h1 style="margin-top: 5vh;color:white;text-align: center;">BCA NOTES</h1>
+      
+      <div class="wrapper">
+          <h1 style="margin: 2vh;color:white">Select Semester</h1>
+        <div class="menu">
+            <select id="sem" name="sem" onchange="populate(this.id,'sub')">
+                <option value="0">Select</option>
+                <option value="1st">1st semester</option>
+                <option value="2nd">2nd semester</option>
+                <option value="3rd">3rd semester</option>
+                <option value="4th">4th semester</option>
+                <option value="5th">5th semester</option>
+                <option value="6th">6th semester</option>
+            </select>
+        </div>
+          <h1 style="margin:2vh 0;color:white">Select the Subject</h1>
+          <div class="menu">
+            <select id="sub" name="sub">
+                <option value="0">Select</option>
+            </select>
+        </div>
+      
+      <div class="content">
+        <div id="fa" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="math1" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="cf" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="pc" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="ic" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="fm" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="math2" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="dsc" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="dlcd" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="hres" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="dms" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="oopj" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="osp" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="dccn" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="daa" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="acns" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="ajp" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="dbms" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="se" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="spt" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="cs" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="pwp" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="net" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="cc" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="wdp" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+        <div id="bi" class="data">
+            <p><b>Module 1</b><span>Download</span></p>
+            <p><b>Module 2</b><span>Download</span></p>
+            <p><b>Module 3</b><span>Download</span></p>
+            <p><b>Module 4</b><span>Download</span></p>
+            <p><b>Module 5</b><span>Download</span></p>
+        </div>
+      </div>
+      </div>
+  
+      
+      
+      
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script>
+            $(function(){
+                $('#sub').change(function(){
+                    $('.data').hide();
+                    $('#'+$(this).val()).fadeIn();
+                });
+                $('#sem').change(function(){
+                    $('.data').hide();
+                    $('#'+$('#sub').val()).fadeIn();
+                });
+            });
+          function populate(s1,s2){
+              var s1=document.getElementById(s1);
+              var s2=document.getElementById(s2);
+              
+              s2.innerHTML = "<option value='0'>Select</option>";
+              if(s1.value == "1st"){
+                  var optionArray = ['fa|Financial Accounting','math1|Mathematics - 1','cf|Computer Fundamentals','pc|Programming in C','ic|Indian Constitution'];
+              }
+              else if(s1.value == "2nd"){
+                  var optionArray = ['fm|Financial Management','math2|Mathematics - 2','dsc|Data Structures Using C','dlcd|Digital Logic and Computer Design','hres|Human Rights and Environmental Studies'];
+              }
+              else if(s1.value == "3rd"){
+                  var optionArray = ['dms|Discrete Mathematical Strcture','oopj|Object Oriented Programming Using Java','osp|Operating System Principles','dccn|Data Communications & Computer Networks'];
+              }
+              else if(s1.value == '4th'){
+                  var optionArray = ['daa|Design and Analysis of Algorithms','acns|Advanced Computer Networks and Security','ajp|Advanced Java Programming','dbms|Database Management System'];
+              }
+              else if(s1.value == '5th'){
+                  var optionArray = ['se|Software Engineering','spt|Software Programming and Testing','cs|Cyber Security','pwp|Programming with Python','net|.Net Framework Using C#'];
+              }
+              else if(s1.value == '6th'){
+                  var optionArray = ['cc|Cloud Computing','wdp|Web Designing and Programming','bi|Business Intelligence'];
+              }
+              for(var option in optionArray){
+                  
+                  var pair=optionArray[option].split("|");
+                  var newoption=document.createElement("option");
+                  newoption.value = pair[0];
+                  newoption.innerHTML=pair[1];
+                  s2.options.add(newoption);
+                  
+              }
+          }
+      </script>
+    </body></html>
