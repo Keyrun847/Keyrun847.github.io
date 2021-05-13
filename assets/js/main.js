@@ -102,8 +102,8 @@
   /**
    * Mobile nav dropdowns activate
    */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
+  on('click', '.sidenav .dropdown > a', function(e) {
+    if (select('#mySidenav').classList.contains('sidenav')) {
       e.preventDefault()
       this.nextElementSibling.classList.toggle('dropdown-active')
     }
@@ -139,3 +139,22 @@
   });
 
 })()
+
+
+
+
+/*  extra */
+
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+  document.getElementById("open").style.display = "none";
+  document.getElementById("close").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("open").style.display = "block";
+  document.getElementById("close").style.display = "none";
+}
+

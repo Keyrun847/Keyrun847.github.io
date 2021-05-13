@@ -73,16 +73,47 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <span id="open" style="font-size:30px;cursor:pointer;color: white" onclick="openNav()">&#9776;</span>
+        <a id="close" style="font-size:30px;cursor:pointer;color: white" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       </nav><!-- .navbar -->
 
     </div>
-  </header><!-- End Header -->
+  </header>
+
+<div id="mySidenav" class="sidenav">
+  <ul style="list-style-type: none">
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li id="myDropdown" class="dropdown"><a href="#notes"><span>Notes</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>PUC</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/notes/puc/physics/physics.html">PHYSICS</a></li>
+                  <li><a href="/notes/puc/chemistry/chemistry.html">CHEMISTRY</a></li>
+                  <li><a href="/notes/puc/maths/maths.html">MATHEMATICS</a></li>
+                  <li><a href="/notes/puc/biology/biology.html">BIOLOGY</a></li>
+                </ul>
+              </li>
+              <li><a href="/notes/bsc/bsc.html">B.SC</a></li>
+              <li><a href="/notes/bca/bca.html">BCA</a></li>
+              <li><a href="/notes/bcom/bcom.html">B.COM</a></li>
+              <li><a href="/notes/bba/bba.html">BBA</a></li>
+              <li><a href="/notes/ba/ba.html">BA</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#">PYQ PAPERS</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">TEST PAPERS</a></li>
+          <li><a href="blog.html">BLOGS</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+</div>
+    
+    <!-- End Header -->
+    
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
         <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
@@ -329,6 +360,28 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+    
+    
+    <script>
+    
+    
+    
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+  document.getElementById("open").style.display = "none";
+  document.getElementById("close").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("open").style.display = "block";
+  document.getElementById("close").style.display = "none";
+}
+
+</script>
+    
+    
+    
 
 </body>
 

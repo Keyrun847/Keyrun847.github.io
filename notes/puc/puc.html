@@ -1,99 +1,184 @@
 <html>
     <head>
         <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="../../images/logo.png" type="image/icon">
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+      <title>BackBenchNotes</title>
+      <meta content="" name="description">
+      <meta content="" name="keywords">
+
+      <!-- Favicons -->
+      <link href="../../assets/img/logo.png" rel="icon">
+      <link href="../../assets/img/log0.png" rel="apple-touch-icon">
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap" rel="stylesheet"0>
+
+      <!-- Vendor CSS Files -->
+      <link href="../../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+      <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+      <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <title>BackBenchNotes</title>
-    
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="puc.css" type="text/css">
+      <link rel="stylesheet" href="puc.css" type="text/css">
     </head>
-    <body onload="document.body.style.opacity='1' ">
+<body onload="document.body.style.opacity='1' ">
         
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html" style="font-family: 'RocknRoll One', sans-serif;"><img src="../../images/logo.png" style="width:30px"> BackBenchNotes</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../notes.html">Notes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">PYQ Papers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Test Papers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="../../index.html#about">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="../../index.html#contact">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
         
-      
-<div class="main">
-  <ul class="cards">
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_content">
-          <a href="physics/physics.html">
-            <h2 class="card_title">PHYSICS</h2><br>
-              <button class="btn card_btn">Read More</button>
-            </a>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_content">
-            <a href="chemistry/chemistry.html">
-          <h2 class="card_title">CHEMISTRY</h2><br>
-          <button class="btn card_btn">Read More</button></a>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_content">
-            <a href="maths/maths.html">
-          <h2 class="card_title">MATHEMATICS</h2><br>
-          <button class="btn card_btn">Read More</button></a>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_content">
-            <a href="biology/biology.html">
-          <h2 class="card_title">BIOLOGY</h2><br>
-            <button class="btn card_btn">Read More</button></a>
-            </div>
-          </div>
-        </li>
-      </ul>
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="../../index.html"><img src="../../images/logo.png"> Backbenchnotes</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="../../index.html">Home</a></li>
+          <li class="dropdown"><a href="#notes"><span>Notes</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="puc.html"><span>PUC</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="physics/physics.html">PHYSICS</a></li>
+                  <li><a href="chemistry/chemistry.html">CHEMISTRY</a></li>
+                  <li><a href="maths/maths.html">MATHEMATICS</a></li>
+                  <li><a href="biology/biology.html">BIOLOGY</a></li>
+                </ul>
+              </li>
+              <li><a href="../bsc/bsc.html">B.SC</a></li>
+              <li><a href="../bca/bca.html">BCA</a></li>
+              <li><a href="../bcom/bcom.html">B.COM</a></li>
+              <li><a href="../bba/bba.html">BBA</a></li>
+              <li><a href="../ba/ba.html">BA</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#">PYQ PAPERS</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">TEST PAPERS</a></li>
+          <li><a href="blog.html">BLOGS</a></li>
+          <li><a class="nav-link scrollto" href="../../index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../../index.html#contact">Contact</a></li>
+        </ul>
+        <span id="open" style="font-size:30px;cursor:pointer;color: white" onclick="openNav()">&#9776;</span>
+        <a id="close" style="font-size:30px;cursor:pointer;color: white" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      </nav><!-- .navbar -->
+
     </div>
+  </header>
 
+<div id="mySidenav" class="sidenav">
+  <ul style="list-style-type: none">
+          <li><a class="nav-link scrollto active" href="../../index.html">Home</a></li>
+          <li id="myDropdown" class="dropdown"><a href="../../index.html#notes"><span>Notes</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="../puc/puc.html"><span>PUC</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="physics/physics.html">PHYSICS</a></li>
+                  <li><a href="chemistry/chemistry.html">CHEMISTRY</a></li>
+                  <li><a href="maths/maths.html">MATHEMATICS</a></li>
+                  <li><a href="biology/biology.html">BIOLOGY</a></li>
+                </ul>
+              </li>
+              <li><a href="../bsc/bsc.html">B.SC</a></li>
+              <li><a href="../bca/bca.html">BCA</a></li>
+              <li><a href="../bcom/bcom.html">B.COM</a></li>
+              <li><a href="../bba/bba.html">BBA</a></li>
+              <li><a href="../ba/ba.html">BA</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#">PYQ PAPERS</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">TEST PAPERS</a></li>
+          <li><a href="blog.html">BLOGS</a></li>
+          <li><a class="nav-link scrollto" href="../../index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../../index.html#contact">Contact</a></li>
+        </ul>
+</div>
+    
+    <!-- End Header -->
+      
+<main id="main">
+    <!-- ======= Notes Section ======= -->
+    <section id="notes" class="notes">
+      <div class="container">
 
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <div class="section-title">
+          <h2>PUC Notes</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 mt-4 mt-lg-0">
+            <a href="physics/physics.html">
+            <div class="box">
+              <h4>PHYSICS</h4>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 mt-4 mt-lg-0">
+            <a href="chemistry/chemistry.html">
+            <div class="box">
+              <h4>CHEMISTRY</h4>
+            </div>
+            </a>
+          </div>
+            
+          <div class="col-md-6 mt-4 mt-lg-0">
+            <a href="maths/maths.html">
+            <div class="box">
+              <h4>MATHEMATICS</h4>
+            </div>
+            </a>
+          </div>
+            
+          <div class="col-md-6 mt-4 mt-lg-0">
+            <a href="biology/biology.html">
+            <div class="box">
+              <h4>BIOLOGY</h4>
+            </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Notes Section -->
+</main>
+
+    
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>BackBenchNotes</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/groovin-free-bootstrap-theme/ -->
+        Designed by <a href="https://bootstrapmade.com/">Kiran V</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Vendor JS Files -->
+      <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Template Main JS File -->
+      <script src="../../assets/js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </body>
 
 </html>
