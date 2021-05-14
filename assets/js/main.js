@@ -157,4 +157,3 @@ function closeNav() {
   document.getElementById("open").style.display = "block";
   document.getElementById("close").style.display = "none";
 }
-

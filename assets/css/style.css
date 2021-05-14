@@ -319,8 +319,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #close{
-        display: none;
-    }
+  display: none;
+}
+#open,#close{
+  transition: 0.3s;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -522,6 +525,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .services{
     padding-top: 50px;
+    padding-bottom: 5vh;
 }
 .services .icon {
   display: inline-flex;
@@ -592,8 +596,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .notes{
-    border-top: 2px groove;
-    padding-top: 8vh;
+  border-top: 2px groove;
+  padding-top: 8vh;
 }
 .notes .box span {
   display: block;
