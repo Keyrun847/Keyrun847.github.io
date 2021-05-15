@@ -397,6 +397,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 8vw;
   font-weight: 500;
   font-family: 'RocknRoll One', sans-serif;
+  mix-blend-mode:screen;
+  color: black;
+  background-color: white;
+  padding: 2.5vh;
 }
 
 #hero h2 span {
@@ -472,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
       padding-bottom: 3vh;
     }
     #hero h1 {
-      padding: 3vh 0;
+      padding: 2vh;
     }
     #hero p{
       font-size: 1.3em;
