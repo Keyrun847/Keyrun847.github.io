@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 # Notes
 --------------------------------------------------------------*/
 #main{
-    padding: 8vh 5vw;
+    padding: 8vh 0;
 }
 .notes .box {
   padding: 10px 30px;
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 2px;
   border-top-style: groove;
   text-align: center;
-    margin-bottom: 10px;
+  margin: 0 2vh;
 }
 .notes{
     padding-top: 80px;
@@ -397,6 +397,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .notes .box:hover span, .notes .box:hover h4, .notes .box:hover p {
   color: #fff;
+}
+@media (min-width:767px){
+    .notes .box{
+        margin-bottom: 10px;
+    }
 }
 
 /*--------------------------------------------------------------

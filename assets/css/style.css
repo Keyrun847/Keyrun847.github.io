@@ -300,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.80);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: auto;
+  padding-top: 5vh;
   margin-top: 20px;
 }
 
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 .progress-container {
   width: 100%;
   height: 0.7vh;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.9);
   position: absolute;
   top: 60px;
   left: 0;
@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   color: #fff;
-  margin: 30px 0;
+  margin-bottom: 30px;
   font-size: 8vw;
   font-weight: 500;
   font-family: 'RocknRoll One', sans-serif;
@@ -596,9 +596,9 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 2px;
   border-top-style: groove;
   text-align: center;
+  margin: 0 2vh;
 }
 .notes{
-  border-top: 2px groove;
   padding-top: 8vh;
 }
 .notes .box span {
