@@ -356,6 +356,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 0.7vh;
   background: #5c9f24;
   width: 0%;
+  transition: -0.3s;
 }
 
 
